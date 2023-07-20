@@ -1,0 +1,78 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.navbar {
+  background-color: #a7a7a7;
+
+}
+.navbar-toggler{
+  background-color: #a7a7a7;
+}
+.collapse{
+  background-color: #a7a7a7;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #131212;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+body{
+  background-image: url('src/assets/images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  opacity: 0.89;}
+
+  .imagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .img, .image-map {
+    flex: 1;
+  height: 80vh; /* Ajusta la altura de las imágenes según tus necesidades */
+  max-width: 40%;
+  margin-top:1% ;
+   /* Limita el ancho máximo de las imágenes */
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .img {
+    flex: 0.4; /* Define el tamaño relativo de la imagen pequeña */
+    height: 100vh; /* Ajusta la altura de la imagen pequeña según tus necesidades */
+    max-width: 90%;
+    margin-top: 0 auto;
+
+    background-image: url('src/assets/images/mapa.png');
+  }
+  .image-map {
+    flex: 0.30; /* Define el tamaño relativo de la imagen pequeña */
+    height: 30vh; /* Ajusta la altura de la imagen pequeña según tus necesidades */
+    max-width: 90%;
+    background-image: url('src/assets/images/lago.jpg');
+    margin: 0 auto;
+    margin-top: 1%;
+  }
+
+.nav {
+  background-color: #6c757d;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #131212;
+  padding: 8px 15px;
+}
+.containerp {
+  margin: 0 auto;
+   max-width: 600px;
+}
+
+p {
+  text-align: center;
+  color: #000; }
